@@ -9,7 +9,7 @@ int main()
     scanf_s("%d", &number);
     if (number > 1)
     {
-        for (; number > 0; number--)
+        for (; number > 0; --number)
         {
             int counter = 0;
             for (int divider = 2; divider <= sqrt(number + 1); ++divider)
