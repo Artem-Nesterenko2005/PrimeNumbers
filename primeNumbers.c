@@ -12,7 +12,7 @@ int main()
         for (; number > 0; number--)
         {
             int counter = 0;
-            for (int divider = 2; divider <= sqrt(number + 1); divider++)
+            for (int divider = 2; divider <= sqrt(number + 1); ++divider)
             {
                 if (number % divider == 0)
                 {
